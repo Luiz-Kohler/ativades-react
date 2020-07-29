@@ -1,0 +1,36 @@
+table,
+td,
+th {
+    border: 1px solid #851e3e;
+    font-family: Roboto Slab;
+}
+
+.TituloTabela {
+    color: #851e3e;
+}
+
+.TabelaProdutos {
+    color: #fff;
+}
+
+.TabelaProdutos .Par {
+    background-color: #651e3e;
+}
+
+.TabelaProdutos .Impar {
+    background-color: #451e3e;
+}
+
+.TabelaProdutos Th {
+    background-color: #251e3e;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    height: 25px;
+    vertical-align: middle;
+}

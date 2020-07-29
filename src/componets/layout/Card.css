@@ -1,0 +1,32 @@
+.Card{
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+
+
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    max-width: 450px ;
+}
+
+.Card .Title{
+    color: white;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+    font-size: 20px;
+}
+
+.Card .Content{
+    flex-grow: 1;
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    font-family: Roboto Slab;
+}
+
